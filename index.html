@@ -6,9 +6,13 @@
     <style>
         body,div,ul,li{margin:0; padding:0; font-size:12px;}
         .main-div{
-            border: 1px solid red;
+
+        }
+        a{
+            text-decoration: none;
         }
         .header-div{
+            text-align: center;
             height: 40px;
             background: aquamarine;
         }
@@ -16,18 +20,23 @@
             display: inline;
             width:46px;
             height:26px;
+            margin: 20px;
+            line-height: 40px;
         }
         .footer-div{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
             height: 40px;
             background: aquamarine;
         }
         .body-div{
-
+            height
         }
     </style>
 </head>
 <body>
-    <div class="main-div">
+    <div id="main" class="main-div">
         <div class="header-div">
             <ul>
                 <li>
@@ -53,5 +62,11 @@
 
         </div>
     </div>
+    <script type="application/javascript">
+        document.ready = function () {
+            document.getElementById("main").height = window.clientHeight;
+            alert(document.getElementById("main").height)
+        }
+    </script>
 </body>
 </html>
