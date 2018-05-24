@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>lvt-home</title>
     <style>
+        html,body{
+            height:100%;
+        }
         body,div,ul,li{margin:0; padding:0; font-size:12px;}
         .main-div{
 
@@ -31,7 +34,8 @@
             background: aquamarine;
         }
         .body-div{
-            height
+            height: calc(100% - 80px);
+            overflow: hidden;
         }
     </style>
 </head>
@@ -62,11 +66,5 @@
 
         </div>
     </div>
-    <script type="application/javascript">
-        document.ready = function () {
-            document.getElementById("main").height = window.clientHeight;
-            alert(document.getElementById("main").height)
-        }
-    </script>
 </body>
 </html>
