@@ -1,0 +1,113 @@
+.container {
+	width: 70%;
+	height: 50%;
+	margin: 200px auto;
+	position: relative;
+}
+
+.container img {
+	position: absolute;
+	padding: 10px 10px 15px;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	z-index: 1;
+	height:200px;
+	width: 200px;
+}
+
+.container img:hover {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-box-shadow: 5px 5px 5px #ddd;
+	-moz-box-shadow: 5px 5px 5px #ddd;
+	box-shadow: 5px 5px 5px #ddd;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.pic1 {
+	top: 200px;
+    left: 39%;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.pic2 {
+	top: 50px;
+	left: 500px;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.pic3 {
+	top: 100px;
+	left: 600px;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.pic4 {
+	top: 250px;
+    left: 700px;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.pic5 {
+	bottom: 0;
+	left: 230px;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.pic6 {
+	top: 150px;
+    left: 130px;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+.pic7 {
+	top: 350px;
+    left: 630px;
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+
+.pic8 {
+	top: 350px;
+    left: 125px;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.pic9 {
+	top: 380px;
+    left: 205px;
+	-webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+.pic10 {
+	left: 400px;
+    top: 380px;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
